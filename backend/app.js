@@ -3,7 +3,7 @@ const { ApolloServer } = require('apollo-server-express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const typeDefs = require('./graphql/schema');
-const resolvers = require('./graphql/resolvers');
+const resolvers = require('./resolvers/resolvers');
 const db = require('./config/db');
 
 dotenv.config();
