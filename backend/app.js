@@ -34,6 +34,10 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
+app.get('/', (req, res) => {
+  res.send('Welcome to your server!');
+});
+
 // Decode JWT token
 const decodeToken = (token) => {
   try {
