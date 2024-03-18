@@ -45,5 +45,7 @@ Database Integration: The project integrates with a database to persist book and
   - **Future Improvement:** Explore role-based access control (RBAC) to provide more granular permissions management and improve security.
 
 <hr/>
+
 ## Conclusion
+
 The Book Management System developed using GraphQL provides a powerful and efficient solution for managing books and authors within a library or bookstore. By leveraging GraphQL's query language and schema-based approach, the system offers flexibility, performance, and ease of use. Future enhancements will focus on refining existing features, improving scalability, and enhancing security to meet evolving user needs and industry standards.
